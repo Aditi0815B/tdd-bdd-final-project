@@ -172,7 +172,7 @@ def delete_products(product_id):
 # LIST PRODUCTS BY NAME
 ######################################################################
 @app.route("/products", methods=["GET"])
-def list_products():
+def list_products_by_name():
     """Returns a list of Products"""
     app.logger.info("Request to list Products...")
 
@@ -195,7 +195,7 @@ def list_products():
 # LIST PRODUCTS BY CATEGORY
 ######################################################################
 @app.route("/products", methods=["GET"])
-def list_products():
+def list_products_by_category():
     """Returns a list of Products"""
     app.logger.info("Request to list Products...")
 
@@ -224,7 +224,7 @@ def list_products():
 # LIST PRODUCTS BY AVAILABILITY
 ######################################################################
 @app.route("/products", methods=["GET"])
-def list_products():
+def list_products_by_availability():
     """Returns a list of Products"""
     app.logger.info("Request to list Products...")
 
